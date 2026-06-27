@@ -1,0 +1,6 @@
+library(readr)
+library(dplyr)
+data <- read_csv("data/kidney_disease_dataset.csv")
+head(data)
+summary(data)
+str(data)
